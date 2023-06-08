@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px
+}
+
+.home-score {
+    background: #252724;
+    color: limegreen;
+    text-align: center;
+    font-size: 90px;
+    margin: 0px 5px;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+
+.guest-score {
+    background: #252724;
+    color: limegreen;
+    text-align: center;
+    font-size: 90px;
+    margin: 0px 5px;
+    padding: 5px 0px;
+    border-radius: 10px;    
+}
+
+button {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    background: #252724;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+button:hover {
+    font-size: 25px;
+    margin-top: 20px;
+    border-color: #105110;
+    border-width: 2px;
+    color: white;
+    background: #252724;
+    padding: 5px;
+    border-radius: 10px;
+}
