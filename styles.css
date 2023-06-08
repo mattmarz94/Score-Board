@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 body {
     margin: 0;
     background: black;
@@ -9,6 +11,7 @@ body {
 }
 
 h3 {
+    font-weight: 1000;
     font-size: 30px;
     color: white;
     text-align: center;
@@ -17,6 +20,7 @@ h3 {
 }
 
 .home-score {
+    font-family: Orbitron, 'Times New Roman', Times, serif;
     background: #252724;
     color: limegreen;
     text-align: center;
@@ -27,6 +31,7 @@ h3 {
 }
 
 .guest-score {
+    font-family: Orbitron, 'Times New Roman', Times, serif;
     background: #252724;
     color: limegreen;
     text-align: center;
@@ -58,4 +63,9 @@ button:hover {
     background: #252724;
     padding: 5px;
     border-radius: 10px;
+}
+
+.restart {
+    text-align: center;
+    margin: 20px;
 }
