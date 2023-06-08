@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
 
 body {
     margin: 0;
@@ -10,12 +11,19 @@ body {
     justify-content: space-around;
 }
 
+h1 {
+    font-family: 'Eagle Lake', cursive;
+    color: white;
+    font-size: 70;
+    text-align: center;
+}
+
 h3 {
-    font-weight: 1000;
     font-size: 30px;
+    font-weight: 1000;
     color: white;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px
 }
 
@@ -51,17 +59,14 @@ button {
     background: #252724;
     padding: 5px;
     border-radius: 10px;
-    
 }
 
 button:hover {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
     border-color: #105110;
     border-width: 2px;
-    color: white;
     background: #252724;
-    padding: 5px;
     border-radius: 10px;
 }
 
